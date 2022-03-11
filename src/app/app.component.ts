@@ -7,12 +7,13 @@ import { FormGroup } from '@angular/forms';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'To-Do';
+  title = 'To-Do App';
   task = '';
   todoArray: any = [];
 
   addTodo() {
     this.todoArray.push(this.task);
+    this.task = '';
   }
 
   deleteItem(i: any) {
