@@ -27,6 +27,11 @@ form .data {
     margin-top: 1em;
 }
 
+.list-instyled {
+    list-style: none;
+    padding: 0;
+}
+
 form .data li {
     background: #fff;
     border-left: 4px solid #F97300;
@@ -47,7 +52,6 @@ form .input-group-text {
     border-radius: 50%;
     width: 5em;
     height: 5em;
-    padding: 1em 23px;
     color: #fff;
     position: absolute;
     right: 13px;
